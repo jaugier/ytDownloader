@@ -1,0 +1,19 @@
+/!\ Known issues : no handle of exceptions
+                   Script can't be launched from elsewhere than powershell
+                   Poor security
+
+
+
+To use this script : 
+
+This script only works when launched from PowerShell
+
+Let's assume that the script is in the desktop folder.
+
+cd .\desktop\
+python3 ytdl.py
+
+
+Then when the GUI opens. Just put the video's URL and click "Download"
+
+The video you've downloaded will be in the same folder as the script itself
